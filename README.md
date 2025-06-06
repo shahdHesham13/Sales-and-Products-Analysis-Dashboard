@@ -2,8 +2,22 @@
 
 Analysis of sales performance across regions, products, and time periods using Excel pivot tables and visualizations.
 
-## Data
-AdventureWorks 2022
+![Demo of Dashboard Interaction](img/slicerDemo.gif)
+
+## Interactive Dashboard Features
+
+### Dynamic Filtering with Slicers
+The dashboard includes interactive slicers that enable real-time filtering across multiple visualizations:
+
+**Available Filters:**
+- **Year Slicer** (2011-2014)
+- **Product Category** (Components, Bikes, Clothing, Accessories)
+
+### **Connected Visualizations:**
+- KPI cards (Sales Performance by Year & Available Products by Category) recalculate dynamically.
+- The Selling Price VS The Standard Cost recalculate dynamically based on the selected Category
+- Average Safety Stock and the Reorder Point for each Category
+- Monthly Sales Performance Over Years updates to show filtered year trend.
 
 
 ## Key Insights
@@ -13,6 +27,9 @@ AdventureWorks 2022
 - The comparison between standard cost and list price shows strong markup potential.
 - Inventory management appears optimized, The safety stock levels show a balanced approach with reorder points appropriately set.
 
+
+## Data
+AdventureWorks 2022
 
 
 ## Data Model
@@ -31,22 +48,3 @@ AdventureWorks 2022
 
 <img src="img/shcema.png" width="600" />
 
-
-
-
-## Interactive Dashboard Features
-
-### Dynamic Filtering with Slicers
-The dashboard includes interactive slicers that enable real-time filtering across multiple visualizations:
-
-**Available Filters:**
-- **Year Slicer** (2011-2014)
-- **Product Category** (Components, Bikes, Clothing, Accessories)
-
-### **Connected Visualizations:**
-- KPI cards (Sales Performance by Year & Available Products by Category) recalculate dynamically.
-- The Selling Price VS The Standard Cost recalculate dynamically based on the selected Category
-- Average Safety Stock and the Reorder Point for each Category
-- Monthly Sales Performance Over Years updates to show filtered year trend.
-
-![dashboard](img/dashboard.png)
